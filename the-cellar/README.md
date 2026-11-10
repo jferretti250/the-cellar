@@ -1,4 +1,4 @@
-# The Cellar — free sommelier study app
+# The Cellar — free sommelier study app live
 
 A free, static version of The Cellar. No accounts, no database, no payments.
 Study progress is saved in each visitor's own browser.
