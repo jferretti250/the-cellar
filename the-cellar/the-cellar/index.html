@@ -1,0 +1,30 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, viewport-fit=cover" />
+    <title>The Cellar — Free Sommelier Study App</title>
+    <meta name="description" content="Free sommelier exam study app. WSET Levels 1–4, CMS Introductory through Master Sommelier, Spirits and Sake. Flashcards, quizzes, practice exams, region maps, aroma wheels, tasting grids and a tasting journal." />
+    <meta name="theme-color" content="#0d0a07" />
+    <link rel="manifest" href="/manifest.webmanifest" />
+    <link rel="icon" type="image/svg+xml" href="/icon.svg" />
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+    <meta name="apple-mobile-web-app-capable" content="yes" />
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent" />
+    <meta name="apple-mobile-web-app-title" content="The Cellar" />
+    <style>
+      * { box-sizing: border-box; margin: 0; padding: 0; }
+      body { background: #0d0a07; color: #e8dcc8; font-family: Georgia, serif; min-height: 100vh; }
+      .cellar-disclaimer { max-width: 960px; margin: 0 auto; padding: 24px 20px 40px; border-top: 1px solid rgba(201,168,76,0.15);
+        font: 11px/1.6 sans-serif; color: #6f6352; text-align: center; }
+    </style>
+  </head>
+  <body>
+    <div id="root"></div>
+    <footer class="cellar-disclaimer">
+      The Cellar is a free, independent study aid. It is not affiliated with, endorsed by, or sponsored by the
+      Wine &amp; Spirit Education Trust (WSET) or the Court of Master Sommeliers. Always check official course materials before your exam.
+    </footer>
+    <script type="module" src="/src/main.jsx"></script>
+  </body>
+</html>
